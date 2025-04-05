@@ -1,6 +1,6 @@
 spring:
   application:
     name: base-boot3-sample-template
-  # \u9ED8\u8BA4 dev \u73AF\u5883
+  # 默认 dev 环境
   profiles:
     active: dev
