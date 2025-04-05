@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/base_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+      username: root
+      password: 123123
+  mail:
+    # 163邮箱的地址为smtp.163.com，直接填写即可
+    host: smtp.163.com
+    # 你申请的163邮箱
+    username: m19164221189@163.com
+    # 注意密码是在开启smtp/pop3时自动生成的，记得保存一下，不然就找不到了
+    password: RAKTCQGORXBPIVPR
+    ssl:
+      enabled: true
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
