@@ -2,9 +2,6 @@ package com.hjc.common;
 
 /**
  * 自定义错误码
- *
- * @author 观止study
- *  @from https://blog.csdn.net/m0_66570338/article/details/132145086
  */
 public enum ErrorCode {
 

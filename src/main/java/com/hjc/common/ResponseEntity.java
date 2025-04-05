@@ -2,7 +2,6 @@ package com.hjc.common;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.swagger.v3.oas.annotations.media.Schema;
 
 
 public record ResponseEntity<T>(int code, String message, T data) {
